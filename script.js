@@ -1,3 +1,5 @@
-document.getElementById('btn-scroll').onclick = function() {
-document.getElementById('galeria').scrollIntoView({ behavior: 'smooth' });
-};
+document.getElementById('btn-scroll')
+.addEventListener('click', () => {
+    document.getElementById('galeria')
+    .scrollIntoView({ behavior: 'smooth' });
+});
